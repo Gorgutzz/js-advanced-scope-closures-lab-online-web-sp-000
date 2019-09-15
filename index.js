@@ -1,5 +1,5 @@
 function produceDrivingRange(blockRange) {
-  return function(drivingCalculator) {
+  return function(start, end) {
     return drivingCalculator * blockRange;
   };
 }
